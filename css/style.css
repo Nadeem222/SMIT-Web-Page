@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    background-color: #FFFFFF;
+}
+
+.top-bar {
+    padding-left: 40px;
+    background-color: #EEEEEE;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 0 8px 20px;
+}
+.top-bar a{
+    background-color: #EEEEEE;
+}
+.call{
+    margin-left: 20px;
+}
+.navbar-logo img {
+    width: 150px;
+    height: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    height: 104px;
+    
+}
+.navbar{
+    
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    position: sticky;
+}
+
+.nav-items {
+    flex: 1;
+    /* border: 1px solid green; */
+    font-size: 16px ;
+    font-weight: 400;
+    
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+.register{
+    padding: 12px 20px 12px 20px;
+    background-color: #0D6DB7;
+    border: none;
+    border-radius: 6PX;
+    margin-right: 5px;
+    margin-left: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.result{
+    padding: 12px 40px 12px 40px;
+    background-color: #8DC63F;
+    border: none;
+    border-radius: 6PX;
+    margin-right: 150px;
+    margin-left: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.banner{
+    /* width: 800px; */
+    height: 500px;
+    border: 1px solid yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 40px 80px 0px 80px; */
+    background-image: url(https://saylani-welfare-uk.netlify.app/Mass-Figure-1.jpg);
+    opacity: 0.5;
+    margin-top: 20px;
+
+}
+.banner-left{
+    /* width: 300px; */
+    height: 300px;
+}
+.banner-right{
+    /* width: 300px; */
+    height: 300px;
+}
+.main-content{
+    text-align: center;
+
+}
