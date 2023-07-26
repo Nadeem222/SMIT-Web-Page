@@ -17,12 +17,15 @@
     font-weight: 600;
     padding: 8px 0 8px 20px;
 }
-.top-bar a{
+
+.top-bar a {
     background-color: #EEEEEE;
 }
-.call{
+
+.call {
     margin-left: 20px;
 }
+
 .navbar-logo img {
     width: 150px;
     height: 100px;
@@ -36,20 +39,21 @@
     align-items: center;
     padding-top: 0;
     height: 104px;
-    
+
 }
-.navbar{
-    
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+
+.navbar {
+
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
     position: sticky;
 }
 
 .nav-items {
     flex: 1;
     /* border: 1px solid green; */
-    font-size: 16px ;
+    font-size: 16px;
     font-weight: 400;
-    
+
 }
 
 nav ul {
@@ -66,7 +70,8 @@ a {
     text-decoration: none;
     color: #555;
 }
-.register{
+
+.register {
     padding: 12px 20px 12px 20px;
     background-color: #0D6DB7;
     border: none;
@@ -77,7 +82,8 @@ a {
     font-size: 14px;
     font-weight: 400;
 }
-.result{
+
+.result {
     padding: 12px 40px 12px 40px;
     background-color: #8DC63F;
     border: none;
@@ -88,28 +94,82 @@ a {
     font-size: 14px;
     font-weight: 400;
 }
-.banner{
-    /* width: 800px; */
+
+.banner {
+    width: 800px;
     height: 500px;
     border: 1px solid yellowgreen;
     display: flex;
     align-items: center;
     justify-content: center;
     /* margin: 40px 80px 0px 80px; */
-    background-image: url(https://saylani-welfare-uk.netlify.app/Mass-Figure-1.jpg);
-    opacity: 0.5;
+    /* background-image: url(https://saylani-welfare-uk.netlify.app/Mass-Figure-1.jpg); */
+    background-color: rgba(0, 0, 0, 0.2);
     margin-top: 20px;
 
 }
-.banner-left{
-    /* width: 300px; */
-    height: 300px;
-}
-.banner-right{
-    /* width: 300px; */
-    height: 300px;
-}
-.main-content{
-    text-align: center;
 
+.banner-left {
+    /* width: 300px; */
+    height: 300px;
+}
+
+.banner-right {
+    /* width: 300px; */
+    height: 300px;
+    opacity: 1;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #666161;
+    padding: 50px;
+    position: relative;
+}
+
+.footer::before {
+    /* padding: 30px;
+    background-color: #030303;
+    margin-top: 200px; */
+    background-image: url(https://saylaniwelfareusa.com/static/media/upcoming_background.a669f19ea2aee3c7e10f.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: .1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.row1 {
+    /* --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0; */
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: calc(var(--bs-gutter-x)*-.5);
+    margin-right: calc(var(--bs-gutter-x)*-.5);
+    margin-top: calc(var(--bs-gutter-y)*-1); */
+
+}
+
+.row1 li {
+    list-style-type: none;
+    padding: 8px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.75rem;
+    padding-left: var(--bs-gutter-x,.75rem);
+    padding-right: 0.75rem;
+    padding-right: var(--bs-gutter-x,.75rem);
+    width: 100%;
 }
