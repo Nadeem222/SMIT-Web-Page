@@ -9,7 +9,7 @@
     /* background-color: #ac1515; */
 }
 body{
-    height: 100vh;
+    min-height: 100vh;
 }
 .top-bar {
     padding-left: 40px;
@@ -41,7 +41,6 @@ body{
     align-items: center;
     padding-top: 0;
     height: 104px;
-
 }
 
 .navbar {
@@ -256,4 +255,86 @@ button span{
     display: flex;
     justify-content:center ;
     padding-top: 10px;
+}
+/* Services Section Start Here */
+.service-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.service-container::before{
+    background-image: url(https://www.saylaniwelfareusa.com/static/media/page_header.ee6c9895d66d7d7cce3a.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    display: block;
+    height: 100%;
+    opacity: .1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.services-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-col-1{
+    width: 100%;
+    padding: 30px;
+}
+.services-col-2{
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+}
+.services-col-2 img{
+    width: 500px;
+    height: 500px;
+    border-radius: 16px;
+}
+/* Contact pages Start here  */
+
+.con-banner{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.con-banner img{
+    width: 1000px;
+    height: 150px;
+    border-radius: 0px 0px 12px 12px;
+    position: relative;
+}
+.con-banner button{
+    position: absolute;
+    margin-top: 80px;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D6DB7;
+}
+.con-row{
+    display: flex;
+    margin: 20px;
+    color: #0D6DB7;
+}
+.map{
+    align-items: flex-end;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+table input{
+    border: 1px solid #8DC63F;
+    padding: 8px;
+    width: 250px;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
